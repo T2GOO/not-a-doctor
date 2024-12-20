@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not a doctor...</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section" id="upload-section">
+            <div class="upload-box">
+                <button id="uploadBtn">UPLOAD</button>
+                <input type="file" id="fileInput" accept="image/*" hidden>
+            </div>
+        </div>
+        <div class="left-section hidden" id="result-section">
+            <div class="results-box">
+                <h2>Results</h2>
+                <div id="results"></div>
+            </div>
+        </div>
+        <div class="right-section">
+            <h1>Not a doctor...</h1>
+            <p>
+                This tool analyzes chest X-ray images using machine learning algorithms to identify potential patterns associated with specific lung conditions. While it provides predictions to assist in decision-making, it is not a substitute for professional medical diagnosis or advice.
+            </p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
