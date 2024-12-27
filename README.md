@@ -168,7 +168,7 @@ Predictions displayed with:
 
 - **Not a Medical Tool**: This application is for educational and research purposes only. It should not be used for diagnosing or treating medical conditions.
 - **Model Accuracy**: Predictions depend on the quality of the training data and may vary.
-- **ANI**: The only task is to predict a lung conditions. Try it on a car image, it will potentially predict a Covid...
+- **ANI**: Its only function is to predict lung conditions. If you try it on a car image, it may (wrongly) diagnose COVID...
 
 ---
 
